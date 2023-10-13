@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="style.css">
+  <title>WIRIN-RVCE</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1>WIRIN</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="index.html"><i class = "fa fa-home"></i>   Home</a></li>
+            <li><a href="details.html"><i class = "fa fa-clone"></i>   Dataset-details</a></li>
+            <li><a href="details.html"><i class = "fa fa-clone"></i>   Dataset</a>
+              <div class = "sub_menu" id = "sub_menu">
+                  <ul>
+                      <li><a href = "details.html">Details</a></li><br>
+                      <li><a href = "download.html">Download</a></li>
+                  </ul>
+              </div>
+              </li>
+              <li><a href="download.html"><i class = "fa fa-clone"></i>   Dataset-Download</a></li>
+            <li><a href="#"><i class = "fa fa-bookmark"></i>  Benchmarks</a></li>
+            <li><a href="#"><i class = "fa fa-calendar"></i>  News and Events</a></li>
+            <li><a href="contacts.html"><i class = "fa fa-phone"></i>  Contacts</a></li>
+            <li><a href="login.html"><i class = "fa fa-user"></i>  Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>National <span></span></h1>
+        <h1>Dataset <span></span></h1>
+        <a href="#about" type="button" class="cta">About us</a>
+      </div>
+      <div class = "car_main"><img src="img/car_main5.png"></div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/about_us.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>us</span></h1>
+        <h2>RVCE and WIRIN collaboration</h2>
+        <p>
+          WIRIN is an acronym for the Wipro and IISc Innovation Network. 
+          This dataset is part of the autonomous car project, which is one of the projects in the WIRIN network. 
+          The Autonomous Car is an institutional level project. 
+          Its participants include Wipro, Indian Institute of Science (IISc) and the RV College of Engineering® (RVCE), Bangalore, in a technical capacity. 
+          National Institute of Design (NID) is offering website design support. 
+          The project staff includes undergraduate students, Masters students, professors, consultants and companies associated with autonomous car development & technologies related to it.
+          <br /><br />
+          Bangalore has been and continues to be in the state of transportation infrastructure growth. 
+          The WIRIN dataset has extensive coverage of numerous traffic scenarios encountered within the Bangalore urban area. 
+          WIRIN dataset comprises over 2000 semantic and point cloud images each, and 29 dataset classes. 
+          These cover the roadway, traffic conditions and vehicles frequently encountered in Bangalore's urban traffic environment and its outskirts. 
+          The dataset has been collected empirically and continues to be expanded. 
+          The car drives through traffic and captures the video using a camera attached to the front of the car. 
+          The WIRIN dataset is a Fine Type dataset. This means that each class delineates boundaries with pixel-level precision. 
+          It is a collection of images to be used for training an autonomous car.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Autonomous Vehicles</h1>
+        <p>Self-driving cars have the potential to revolutionize the way we think about transportation. They use advanced technologies such as sensors, cameras, and machine learning algorithms to navigate and make decisions on the road. The future of transportation with autonomous vehicles will bring significant changes in terms of safety, efficiency, and convenience.</p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="layer"></div>
+          <p>These vehicles are equipped with advanced sensor systems that allow them to detect and respond to potential hazards on the road.
+            This could greatly reduce the number of accidents caused by human error, which is a leading cause of traffic accidents today.
+          </p><br>
+            <div class="icon"><img src="./img/safety.jpeg" /></div>
+            <h2>Safety</h2>
+        </div>
+        <div class="service-item">
+          <div class="layer"></div>
+          <p>Self-driving vehicles can reduce number of human drivers on the road by up to 80%, which frees up time and allows for more productive use of the vehicle. 
+            These vehicles can optimize their routes and driving patterns, which can reduce traffic congestion.
+          </p><br>
+            <div class="icon"><img src="./img/efficiency.jpeg" /></div>
+            <h2>Efficiency</h2>
+        </div>
+        <div class="service-item">
+          <div class="layer"></div>
+          <p>They can also be used by people who are unable to drive. The use of autonomous vehicles could lead to the reduction in the need for personal car ownership.
+            Along with these consumer benefits, it may also generate additional value for auto industry.
+          </p><br>
+            <div class="icon"><img src="./img/convenience.jpeg" /></div>
+            <h2 style="text-align: center;">Convenience</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container2">
+      <div class="projects-header">
+        <h1 class="section-title">Image <span>Annotations</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <div class="containerx containerx1">
+              <div class="image-containerx">
+                  <img class="image-beforex slider-imagex" src="img/raw2.jpg">
+                  <img class="image-afterx" src="img/ann2.png">
+              </div>
+              <input class="sliderx sliderx1 slider-imagex" type="range" min="0" max="100" value="50" aria-label="Percentage of before photo shown">
+              <div class="slider-linex">
+  
+              </div>
+              <div class="slider-buttonx" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line><line x1="96" y1="128" x2="16" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line><polyline points="48 160 16 128 48 96" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline><line x1="160" y1="128" x2="240" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line><polyline points="208 96 240 128 208 160" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline></svg>
+              </div>
+              <script type="text/javascript">
+                  const containerx1 = document.querySelector('.containerx1');
+                  document.querySelector('.sliderx1').addEventListener('input',(e)=>{
+                  containerx1.style.setProperty('--position',`${e.target.value}%`) ;
+                  })
+  
+              </script>
+          </div> </div>
+          <div class="project-img">
+            <h1>Annotations</h1>
+            <p>Autonomous vehicles rely heavily on image recognition and perception to navigate and make decisions on the road. One of the key components of this technology is image annotation, which is the process of labelling and tagging images to provide context and meaning. Image annotation is critical for the development and training of autonomous vehicles, as it allows the vehicle to understand and interpret the environment around it.
+  
+            </p>
+          
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <div class="containerx containerx5">
+              <div class="image-containerx">
+                  <img class="image-beforex slider-imagex" src="img/raw1.jpg">
+                  <img class="image-afterx" src="img/ann1.png">
+              </div>
+              <input class="sliderx sliderx5 slider-imagex" type="range" min="0" max="100" value="50" aria-label="Percentage of before photo shown">
+              <div class="slider-linex">
+  
+              </div>
+              <div class="slider-buttonx" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line><line x1="96" y1="128" x2="16" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line><polyline points="48 160 16 128 48 96" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline><line x1="160" y1="128" x2="240" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line><polyline points="208 96 240 128 208 160" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline></svg>
+              </div>
+              <script type="text/javascript">
+                  const containerx5 = document.querySelector('.containerx5');
+                  document.querySelector('.sliderx5').addEventListener('input',(e)=>{
+                  containerx5.style.setProperty('--position',`${e.target.value}%`) ;
+                  })
+  
+              </script>
+          </div> </div>
+          <div class="project-img">
+            <h1>Manual Annotation</h1>
+            <p>Manual image annotation is the process of manually labelling images by human annotators. This process typically involves an annotator viewing an image and then using a software tool to draw bounding boxes around objects of interest, such as cars, pedestrians, and traffic signs. The annotator then adds labels to the bounding boxes to indicate the class of the object, such as car, pedestrian, or stop sign. Manual annotation is a time-consuming and labour-intensive process, but it is considered to be the most accurate and reliable method of annotation.
+            </p>
+          
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <div class="containerx containerx2">
+              <div class="image-containerx">
+                  <img class="image-beforex slider-imagex" src="img/slide-3.png">
+                  <img class="image-afterx" src="img/slide-5.png">
+              </div>
+              <input class="sliderx sliderx3 slider-imagex" type="range" min="0" max="100" value="50" aria-label="Percentage of before photo shown">
+              <div class="slider-linex">
+  
+              </div>
+              <div class="slider-buttonx" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line><line x1="96" y1="128" x2="16" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line><polyline points="48 160 16 128 48 96" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline><line x1="160" y1="128" x2="240" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line><polyline points="208 96 240 128 208 160" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline></svg>
+              </div>
+              <script type="text/javascript">
+                  const containerx2 = document.querySelector('.containerx2');
+                  document.querySelector('.sliderx3').addEventListener('input',(e)=>{
+                  containerx2.style.setProperty('--position',`${e.target.value}%`) ;
+                  })
+  
+              </script>
+          </div>   </div>
+          <div class="project-img">
+             <h1>Tool based Annotation</h1>
+            <p>Tool-based image annotation is the process of using software tools to automate the annotation process. This can include using machine learning algorithms to automatically detect and label objects in an image, or using pre-trained models to predict the class of an object. Tool-based annotation is faster and more efficient than manual annotation, but it may not be as accurate or reliable.
+  
+            </p>
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <div class="containerx containerx3">
+              <div class="image-containerx">
+                  <img class="image-beforex slider-imagex" src="img/slide-6.png">
+                  <img class="image-afterx" src="img/slide-7.png">
+              </div>
+              <input class="sliderx sliderx4 slider-imagex" type="range" min="0" max="100" value="50" aria-label="Percentage of before photo shown">
+              <div class="slider-linex">
+  
+              </div>
+              <div class="slider-buttonx" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line><line x1="96" y1="128" x2="16" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line><polyline points="48 160 16 128 48 96" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline><line x1="160" y1="128" x2="240" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line><polyline points="208 96 240 128 208 160" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline></svg>
+              </div>
+              <script type="text/javascript">
+                  const containerx3 = document.querySelector('.containerx3');
+                  document.querySelector('.sliderx4').addEventListener('input',(e)=>{
+                  containerx3.style.setProperty('--position',`${e.target.value}%`) ;
+                  })
+  
+              </script>
+          </div></div>
+          <div class="project-img">
+            <h1>Combined Image Annotation Approach</h1>
+            <p> Image annotation is a crucial step in the development of autonomous vehicles. 
+              It allows the vehicle to understand and interpret the environment around it. 
+              Both manual and tool-based image annotation have their own advantages and disadvantages, but when combined, they can provide a powerful solution for training autonomous vehicle systems.
+               It is important to note that the annotation process should be regularly reviewed and improved, as the 
+               technology and the environment are constantly evolving.
+  
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!--Gallery starts-->
+
+  <section class = "slider_container">
+    <div class="projects-header">
+      <h1 class="section-title">Ga<span>ll</span>ery</h1>
+    </div>
+    <div class = "container_swiper">
+      <div class = "swiper card_slider">
+        <div class = "swiper-wrapper">
+          <div class = "swiper-slide">
+              <div class = "img_box">
+                <img src = "img/sw1.jpg">
+              </div>
+          </div>
+          <div class = "swiper-slide">
+            <div class = "img_box">
+              <img src = "img/sw2.jpg">
+            </div>
+        </div>
+        <div class = "swiper-slide">
+          <div class = "img_box">
+            <img src = "img/sw3.jpg">
+          </div>
+      </div>
+      <div class = "swiper-slide">
+        <div class = "img_box">
+          <img src = "img/sw4.jpg">
+        </div>
+    </div>
+    <div class = "swiper-slide">
+      <div class = "img_box">
+        <img src = "img/sw5.jpg">
+      </div>
+  </div>
+      <div class = "swiper-slide">
+        <div class = "img_box">
+          <img src = "img/sw6.jpg">
+        </div>
+    </div>
+    <div class = "swiper-slide">
+      <div class = "img_box">
+        <img src = "img/sw7.jpg">
+      </div>
+  </div>
+  <div class = "swiper-slide">
+    <div class = "img_box">
+      <img src = "img/sw8.jpg">
+    </div>
+</div>
+<div class = "swiper-slide">
+  <div class = "img_box">
+    <img src = "img/sw9.jpg">
+  </div>
+</div>
+<div class = "swiper-slide">
+  <div class = "img_box">
+    <img src = "img/sw10.jpg">
+  </div>
+</div>
+        </div>
+        <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script type="text/javascript">
+    var intervalTime = 3000;
+    var swiper = new Swiper(".card_slider", {
+        slidesPerView: 3,
+        loop:true,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          240: {
+            slidesPerView: 1,
+            // spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            // spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            // spaceBetween: 50,
+          },
+        },
+      });
+      setInterval(function() {
+    swiper.slideNext();
+}, intervalTime);
+  </script>
+
+  <!--Gallery ends-->
+  <br><br><br><br><br<br>
+  <!-- Footer section -->
+
+  <section id = "entire_footer">
+  <hr style="color: rgb(16, 16, 80);">
+  <div class="projects-header">
+    <h1 class="section-title">Our <span>Team</span></h1>
+  </div>
+  <footer class="footer">
+    <div class="logo-container">
+      <img src="img/wipro_correct2.png" alt="logo 2" class="logo">
+      <img src="img/iisc_correct.png" alt="logo 3" class="logo">
+      <img src="img/rvce_correct.png" alt="logo 1" class="logo">
+      <img src="img/nid_correct.png" alt="logo 4" class="logo">
+    </div>
+    <br><br><br>
+  </footer>
+  <div class="footer-links">
+    <a href="mailto:wirin@rvce.edu.in">Contact Us</a>
+    <a href="https://docs.google.com/document/d/1EJlkxEllP2Xn_U6OZWjRUSxULB77M4xt4JRkkfniro8/edit?usp=sharing" target="_blank">Terms and Conditions</a>
+    <a href="https://docs.google.com/document/d/1Oh2g50tcgIFOVc85jfqQmcHLMD9ecF_DIDX6hFZc_U0/edit?usp=sharing" target="_blank">Privacy Policy</a>
+  </div>
+  </section>
+  <script src="app.js"></script>
+  <!-- Footer section ends -->
+
+</body>
+
+</html>

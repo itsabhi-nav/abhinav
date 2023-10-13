@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+  <link rel="stylesheet" href="download.css">
+  <link rel="stylesheet" href="swiper-bundle.min.css">
+  <title>Dataset details</title>
+</head>
+
+<body>
+    
+      
+  <!-- Header -->
+  <section id="header">
+    <div class="header container2">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1>WIRIN<span></span></h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="index.html"><i class = "fa fa-home"></i>  Home</a></li>
+            <li><a href="details.html"><i class = "fa fa-clone"></i>   Dataset-details</a></li>
+            <!-- <li><a href="details.html" data-after="Service"><i class = "fa fa-clone"></i>  Dataset</a> -->
+            <li><a href = "details.html"><i class = "fa fa-clone"></i>  Dataset</a>
+              <div class = "sub_menu" id = "abc">
+                  <ul>
+                      <li><a href = "details.html">Details</a></li><br>
+                      <li><a href = "download.html">Download</a></li>
+                  </ul>
+              </div>
+              </li>
+              <li><a href="download.html"><i class = "fa fa-clone"></i>   Dataset-Download</a></li>
+            <li><a href="#"><i class = "fa fa-bookmark"></i>  Benchmarks</a></li>
+            <li><a href="#"><i class = "fa fa-calendar"></i>  News and Events</a></li>
+            <li><a href="contacts.html"><i class = "fa fa-phone"></i>  Contacts</a></li>
+            <li><a href="login.html"><i class = "fa fa-user"></i>  Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br><br><br><br><br><br><br><br>
+  <nav>
+    <a href="download.html">Raw Dataset</a>
+    <a href="download1.html">Labelled Dataset</a>
+    <a href="download2.html">Annotated Dataset</a>
+  </nav>
+  <!-- End Header -->
+  
+  
+   
+  
+  <!--==================== SUBSCRIBE ====================-->
+  <section class="subscribe section">
+    <div class="subscribe__bg">
+        <div class="subscribe__container container">
+            <h2 class="section__title subscribe__title">Raw Format</h2>
+            <p class="subscribe__description">Autonomous vehicles generate vast amounts of raw data, including information about their surroundings collected by sensors such as cameras, lidar, and radar. This data is crucial for improving the performance and safety of autonomous vehicles, as well as for developing new applications and services based on this technology.
+              This raw data is processed by the autonomous car's software and algorithms to make decisions about how to drive the car safely and efficiently. Raw data from autonomous cars is typically stored for analysis and may be used to improve the performance of autonomous systems over time.
+              This includes information about the car's internal state, such as its speed, fuel level, tire pressure, and engine temperature.
+            </p>
+
+            
+        </div>
+    </div>
+</section>
+
+  <section class="2_images">
+    <div class="image-container">
+        <div class="image">
+          <h1>Classification of Objects</h1>
+          <img src="img/classification_1.png" alt="Classification of objects">
+        </div>
+        <div class="image">
+          <h1>Flow of Activities</h1>
+          <img src="img/Flow_1.png" alt="Flow of activities">
+        </div>
+      </div>
+  </section>
+<!--==================== ABOUT ====================-->
+<section class="about section" id="about">
+  <div class="about__container container grid">
+    <div class="about__data">
+        <h2 class="section__title about__title">Heavy Traffic </h2>
+        <p class="about__description">Heavy traffic is a condition that is characterized by slower speeds, longer trip times, and increased vehicular queueing. The traffic on the urban road network is increasing substantially. The vehicles are fully stopped for a period of time. This traffic congestion leads to drivers becoming frustrated and engaging in road rage.
+        </p>
+        <button class="button" onclick="openForm()">Download</button>
+        <div class="form-popup" id="myForm">
+          <form action="javascript:window.location.href='login.html'" class="form-container" onsubmit="return validateForm()">
+            <h1>Heavy Traffic - Raw</h1><br>
+            <h3>Kindly read and agree the Terms and conditions and Privacy policy</h3><br>
+            <a href="https://docs.google.com/document/d/1EJlkxEllP2Xn_U6OZWjRUSxULB77M4xt4JRkkfniro8/edit?usp=sharing" target="_blank">Terms and conditions</a><br><br>
+            <a href="https://docs.google.com/document/d/1Oh2g50tcgIFOVc85jfqQmcHLMD9ecF_DIDX6hFZc_U0/edit?usp=sharing" target="_blank">Privacy policy</a><br><br>
+            
+            <input type="checkbox" id="terms">I agree to the above mentioned Terms & conditions and Privacy policies<br><br>
+            <button type="submit" class="btn">Download</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+          </form>
+        </div>
+    </div>
+  
+      <section class="discover section" id="discover">
+        <h2 class="section__title">Preview of Heavy Traffic Dataset</h2>
+        
+        <div class="discover__container container swiper-container">
+            <div class="swiper-wrapper">
+                <!--==================== DISCOVER 1 ====================-->
+                <div class="discover__card swiper-slide">
+                    <img src="./img/Highpic1.png" alt="" class="discover__img">
+                    <div class="discover__data">
+                        <h2 class="discover__title">Heavy Traffic</h2>
+                        <span class="discover__description">Raw</span>
+                    </div>
+                </div>
+      
+                <!--==================== DISCOVER 2 ====================-->
+                <div class="discover__card swiper-slide">
+                    <img src="./img/Highpic2.png" alt="" class="discover__img">
+                    <div class="discover__data">
+                        <h2 class="discover__title">Heavy Traffic</h2>
+                        <span class="discover__description">Raw</span>
+                    </div>
+                </div>
+      
+                <!--==================== DISCOVER 3 ====================-->
+                <div class="discover__card swiper-slide">
+                    <img src="./img/Highpic3.png" alt="" class="discover__img">
+                    <div class="discover__data">
+                        <h2 class="discover__title">Heavy Traffic</h2>
+                        <span class="discover__description">Raw</span>
+                    </div>
+                </div>
+      
+                <!--==================== DISCOVER 4 ====================-->
+                <div class="discover__card swiper-slide">
+                    <img src="./img/Highpic4.png" alt="" class="discover__img">
+                    <div class="discover__data">
+                        <h2 class="discover__title">Heavy Traffic</h2>
+                        <span class="discover__description">Raw</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      
+  </div>
+</section>
+<!--==================== ABOUT ====================-->
+<section class="about section" id="about">
+  <div class="about__container container grid">
+      <div class="about__data">
+          <h2 class="section__title about__title">Medium Traffic </h2>
+          <p class="about__description">When there is medium traffic, the rate of the movement is consistent. The speed of the vehicles will remain constant. Despite the constraints, this traffic is moving. This is what prompts the abrupt, unexpected steering manoeuvre. It is triggered off by the minor events.
+          </p>
+          <button class="button" onclick="openForm1()">Download</button>
+
+        <div class="form-popup" id="myForm1">
+          <form action="javascript:window.location.href='login.html'" class="form-container" onsubmit="return validateForm1()">
+            <h1>Medium Traffic - Raw</h1><br>
+            <h3>Kindly read and agree the Terms and conditions and Privacy policy</h3><br>
+            <a href="https://docs.google.com/document/d/1EJlkxEllP2Xn_U6OZWjRUSxULB77M4xt4JRkkfniro8/edit?usp=sharing" target="_blank">Terms and conditions</a><br><br>
+            <!-- <h3>Privacy Policies</h3><br> -->
+            <a href="https://docs.google.com/document/d/1Oh2g50tcgIFOVc85jfqQmcHLMD9ecF_DIDX6hFZc_U0/edit?usp=sharing" target="_blank">Privacy policy</a><br><br>
+            
+            <input type="checkbox" id="terms1">I agree to the above mentioned Terms & conditions and Privacy policies<br><br>
+            <button type="submit" class="btn">Download</button>
+            <button type="button" class="btn cancel" onclick="closeForm1()">Close</button>
+          </form>
+</div>
+      </div>
+      <section class="discover section" id="discover">
+        <h2 class="section__title">Preview of Medium Traffic Dataset</h2>
+        
+        <div class="discover__container container swiper-container">
+            <div class="swiper-wrapper">
+                <!--==================== DISCOVER 1 ====================-->
+                <div class="discover__card swiper-slide">
+                    <img src="./img/Mediumpic1.png" alt="" class="discover__img">
+                    <div class="discover__data">
+                        <h2 class="discover__title">Medium Traffic</h2>
+                        <span class="discover__description">Raw</span>
+                    </div>
+                </div>
+      
+                <!--==================== DISCOVER 2 ====================-->
+                <div class="discover__card swiper-slide">
+                    <img src="./img/Mediumpic2.png" alt="" class="discover__img">
+                    <div class="discover__data">
+                        <h2 class="discover__title">Medium Traffic</h2>
+                        <span class="discover__description">Raw</span>
+                    </div>
+                </div>
+      
+                <!--==================== DISCOVER 3 ====================-->
+                <div class="discover__card swiper-slide">
+                    <img src="./img/Mediumpic3.png" alt="" class="discover__img">
+                    <div class="discover__data">
+                        <h2 class="discover__title">Medium Traffic</h2>
+                        <span class="discover__description">Raw</span>
+                    </div>
+                </div>
+      
+                <!--==================== DISCOVER 4 ====================-->
+                <div class="discover__card swiper-slide">
+                    <img src="./img/Mediumpic4.png" alt="" class="discover__img">
+                    <div class="discover__data">
+                        <h2 class="discover__title">Medium Traffic</h2>
+                        <span class="discover__description">Raw</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      
+  </div>
+</section>
+<!--==================== ABOUT ====================-->
+<section class="about section" id="about">
+  <div class="about__container container grid">
+      <div class="about__data">
+          <h2 class="section__title about__title">Low Traffic </h2>
+          <p class="about__description">Where there is minimal traffic, vehicles can move freely. The vehicles are separated by a distance. The flow of vehicles will be unimpeded. It is impacted by junction signals or other occurrences that occasionally disrupt the orderly flow of traffic.
+          </p>
+          <button class="button" onclick="openForm2()">Download</button>
+
+        <div class="form-popup" id="myForm2">
+          <form action="javascript:window.location.href='login.html'" class="form-container" onsubmit="return validateForm2()">
+            <h1>Low Traffic - Raw</h1><br>
+            <h3>Kindly read and agree the Terms and conditions and Privacy policy</h3><br>
+            <a href="https://docs.google.com/document/d/1EJlkxEllP2Xn_U6OZWjRUSxULB77M4xt4JRkkfniro8/edit?usp=sharing" target="_blank">Terms and conditions</a><br><br>
+            <!-- <h3>Privacy Policies</h3><br> -->
+            <a href="https://docs.google.com/document/d/1Oh2g50tcgIFOVc85jfqQmcHLMD9ecF_DIDX6hFZc_U0/edit?usp=sharing" target="_blank">Privacy policy</a><br><br>
+            
+            <input type="checkbox" id="terms2">I agree to the above mentioned Terms & conditions and Privacy policies<br><br>
+            <button type="submit" class="btn">Download</button>
+            <button type="button" class="btn cancel" onclick="closeForm2()">Close</button>
+          </form>
+</div>
+      </div>
+      <section class="discover section" id="discover">
+        <h2 class="section__title">Preview of Low Traffic Dataset</h2>
+        
+        <div class="discover__container container swiper-container">
+            <div class="swiper-wrapper">
+                <!--==================== DISCOVER 1 ====================-->
+                <div class="discover__card swiper-slide">
+                    <img src="./img/Lowpic1.png" alt="" class="discover__img">
+                    <div class="discover__data">
+                        <h2 class="discover__title">Low Traffic</h2>
+                        <span class="discover__description">Raw</span>
+                    </div>
+                </div>
+      
+                <!--==================== DISCOVER 2 ====================-->
+                <div class="discover__card swiper-slide">
+                    <img src="./img/Lowpic5.png" alt="" class="discover__img">
+                    <div class="discover__data">
+                        <h2 class="discover__title">Low Traffic</h2>
+                        <span class="discover__description">Raw</span>
+                    </div>
+                </div>
+      
+                <!--==================== DISCOVER 3 ====================-->
+                <div class="discover__card swiper-slide">
+                    <img src="./img/Lowpic3.png" alt="" class="discover__img">
+                    <div class="discover__data">
+                        <h2 class="discover__title">Low Traffic</h2>
+                        <span class="discover__description">Raw</span>
+                    </div>
+                </div>
+      
+                <!--==================== DISCOVER 4 ====================-->
+                <div class="discover__card swiper-slide">
+                    <img src="./img/Lowpic4.png" alt="" class="discover__img">
+                    <div class="discover__data">
+                        <h2 class="discover__title">Low Traffic</h2>
+                        <span class="discover__description">Raw</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      
+  </div>
+</section>
+<!--==================== ABOUT ====================-->
+<section class="about section" id="about">
+  <div class="about__container container grid">
+      <div class="about__data">
+          <h2 class="section__title about__title">Muddy Traffic </h2>
+          <p class="about__description">Essentially, you accelerate slightly forwards, then put your car into reverse and roll backwards, then switch back to drive and accelerate forwards again. Select the lowest gear for an automatic transmission, and second or third gear for a manual transmission.
+          </p>
+          <button class="button" onclick="openForm3()">Download</button>
+
+        <div class="form-popup" id="myForm3">
+          <form action="javascript:window.location.href='login.html'" class="form-container" onsubmit="return validateForm3()">
+            <h1>Muddy Traffic - Raw</h1><br>
+            <h3>Kindly read and agree the Terms and conditions and Privacy policy</h3><br>
+            <a href="https://docs.google.com/document/d/1EJlkxEllP2Xn_U6OZWjRUSxULB77M4xt4JRkkfniro8/edit?usp=sharing" target="_blank">Terms and conditions</a><br><br>
+            <!-- <h3>Privacy Policies</h3><br> -->
+            <a href="https://docs.google.com/document/d/1Oh2g50tcgIFOVc85jfqQmcHLMD9ecF_DIDX6hFZc_U0/edit?usp=sharing" target="_blank">Privacy policy</a><br><br>
+            
+            <input type="checkbox" id="terms3">I agree to the above mentioned Terms & conditions and Privacy policies<br><br>
+            <button type="submit" class="btn">Download</button>
+            <button type="button" class="btn cancel" onclick="closeForm3()">Close</button>
+          </form>
+</div>
+      </div>
+      <section class="discover section" id="discover">
+        <h2 class="section__title">Preview of Muddy Traffic Dataset</h2>
+        
+        <div class="discover__container container swiper-container">
+            <div class="swiper-wrapper">
+                <!--==================== DISCOVER 1 ====================-->
+                <div class="discover__card swiper-slide">
+                    <img src="./img/Muddypic1.png" alt="" class="discover__img">
+                    <div class="discover__data">
+                        <h2 class="discover__title">Muddy Traffic</h2>
+                        <span class="discover__description">Raw</span>
+                    </div>
+                </div>
+      
+                <!--==================== DISCOVER 2 ====================-->
+                <div class="discover__card swiper-slide">
+                    <img src="./img/Muddypic2.png" alt="" class="discover__img">
+                    <div class="discover__data">
+                        <h2 class="discover__title">Muddy Traffic</h2>
+                        <span class="discover__description">Raw</span>
+                    </div>
+                </div>
+      
+                <!--==================== DISCOVER 3 ====================-->
+                <div class="discover__card swiper-slide">
+                    <img src="./img/Muddypic3.png" alt="" class="discover__img">
+                    <div class="discover__data">
+                        <h2 class="discover__title">Muddy Traffic</h2>
+                        <span class="discover__description">Raw</span>
+                    </div>
+                </div>
+      
+                <!--==================== DISCOVER 4 ====================-->
+                <div class="discover__card swiper-slide">
+                    <img src="./img/Muddypic4.png" alt="" class="discover__img">
+                    <div class="discover__data">
+                        <h2 class="discover__title">Muddy Traffic</h2>
+                        <span class="discover__description">Raw</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      
+  </div>
+</section>
+<!--==================== ABOUT ====================-->
+<section class="about section" id="about">
+  <div class="about__container container grid">
+      <div class="about__data">
+          <h2 class="section__title about__title">Construction Traffic </h2>
+          <p class="about__description">The operational performance of the traffic is significantly impacted by the construction operations, such as flyovers, metro, and other activities, which causes a rise in congestion and delay during this time.The traffic bottlenecks are also the trouble spots of congestions and accidents.
+          </p>
+          <button class="button" onclick="openForm4()">Download</button>
+
+        <div class="form-popup" id="myForm4">
+          <form action="javascript:window.location.href='login.html'" class="form-container" onsubmit="return validateForm4()">
+            <h1>Construction Traffic - Raw</h1><br>
+            <h3>Kindly read and agree the Terms and conditions and Privacy policy</h3><br>
+            <a href="https://docs.google.com/document/d/1EJlkxEllP2Xn_U6OZWjRUSxULB77M4xt4JRkkfniro8/edit?usp=sharing" target="_blank">Terms and conditions</a><br><br>
+            <!-- <h3>Privacy Policies</h3><br> -->
+            <a href="https://docs.google.com/document/d/1Oh2g50tcgIFOVc85jfqQmcHLMD9ecF_DIDX6hFZc_U0/edit?usp=sharing" target="_blank">Privacy policy</a><br><br>
+            
+            <input type="checkbox" id="terms4">I agree to the above mentioned Terms & conditions and Privacy policies<br><br>
+            <button type="submit" class="btn">Download</button>
+            <button type="button" class="btn cancel" onclick="closeForm4()">Close</button>
+          </form>
+</div>
+      </div>
+      <section class="discover section" id="discover">
+        <h2 class="section__title">Preview of Construction Traffic Dataset</h2>
+        
+        <div class="discover__container container swiper-container">
+            <div class="swiper-wrapper">
+                <!--==================== DISCOVER 1 ====================-->
+                <div class="discover__card swiper-slide">
+                    <img src="./img/Construct1.png" alt="" class="discover__img">
+                    <div class="discover__data">
+                        <h2 class="discover__title">Construction Traffic</h2>
+                        <span class="discover__description">Raw</span>
+                    </div>
+                </div>
+      
+                <!--==================== DISCOVER 2 ====================-->
+                <div class="discover__card swiper-slide">
+                    <img src="./img/Construct2.png" alt="" class="discover__img">
+                    <div class="discover__data">
+                        <h2 class="discover__title">Construction Traffic</h2>
+                        <span class="discover__description">Raw</span>
+                    </div>
+                </div>
+      
+                <!--==================== DISCOVER 3 ====================-->
+                <div class="discover__card swiper-slide">
+                    <img src="./img/Construct3.png" alt="" class="discover__img">
+                    <div class="discover__data">
+                        <h2 class="discover__title">Constructio Traffic</h2>
+                        <span class="discover__description">Raw</span>
+                    </div>
+                </div>
+      
+                <!--==================== DISCOVER 4 ====================-->
+                <div class="discover__card swiper-slide">
+                    <img src="./img/Construct4.png" alt="" class="discover__img">
+                    <div class="discover__data">
+                        <h2 class="discover__title">Constructio Traffic</h2>
+                        <span class="discover__description">Raw</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      
+  </div>
+</section>
+
+<section class="about section" id="about">
+  <div class="about__container container grid">
+      <div class="about__data">
+          <h2 class="section__title about__title">LIDAR Traffic Dataset</h2>
+          <p class="about__description">Lidar technology can be used to create a detailed and accurate representation of the traffic in a given area. By emitting laser pulses and measuring the time it takes for the pulses to bounce back, lidar sensors can generate 3D maps of objects and environments, including moving vehicles.
+          </p>
+          <button class="button" onclick="openForm4()">Download</button>
+
+        <div class="form-popup" id="myForm4">
+          <form action="javascript:window.location.href='login.html'" class="form-container" onsubmit="return validateForm4()">
+            <h1>LIDAR Traffic Dataset - Raw</h1><br>
+            <h3>Kindly read and agree the Terms and conditions and Privacy policy</h3><br>
+            <a href="https://docs.google.com/document/d/1EJlkxEllP2Xn_U6OZWjRUSxULB77M4xt4JRkkfniro8/edit?usp=sharing" target="_blank">Terms and conditions</a><br><br>
+            <!-- <h3>Privacy Policies</h3><br> -->
+            <a href="https://docs.google.com/document/d/1Oh2g50tcgIFOVc85jfqQmcHLMD9ecF_DIDX6hFZc_U0/edit?usp=sharing" target="_blank">Privacy policy</a><br><br>
+            
+            <input type="checkbox" id="terms4">I agree to the above mentioned Terms & conditions and Privacy policies<br><br>
+            <button type="submit" class="btn">Download</button>
+            <button type="button" class="btn cancel" onclick="closeForm4()">Close</button>
+          </form>
+</div>
+      </div>
+      <section class="discover section" id="discover">
+        <h2 class="section__title">Preview of LIDAR Traffic Dataset</h2>
+        
+        <div class="discover__container container swiper-container">
+            <div class="swiper-wrapper">
+                <!--==================== DISCOVER 1 ====================-->
+                <div class="discover__card swiper-slide">
+                    <img src="./img/slide-3.png" alt="" class="discover__img">
+                    <div class="discover__data">
+                        <h2 class="discover__title">LIDAR Traffic Dataset</h2>
+                        <span class="discover__description">Raw</span>
+                    </div>
+                </div>
+      
+                <!--==================== DISCOVER 2 ====================-->
+                <div class="discover__card swiper-slide">
+                    <img src="./img/slide-5.png" alt="" class="discover__img">
+                    <div class="discover__data">
+                        <h2 class="discover__title">LIDAR Traffic dataset</h2>
+                        <span class="discover__description">Raw</span>
+                    </div>
+                </div>
+      
+                <!--==================== DISCOVER 3 ====================-->
+                <div class="discover__card swiper-slide">
+                    <img src="./img/slide-6.png" alt="" class="discover__img">
+                    <div class="discover__data">
+                        <h2 class="discover__title">LIDAR Traffic Dataset</h2>
+                        <span class="discover__description">Raw</span>
+                    </div>
+                </div>
+      
+                <!--==================== DISCOVER 4 ====================-->
+                <div class="discover__card swiper-slide">
+                    <img src="./img/slide-7.png" alt="" class="discover__img">
+                    <div class="discover__data">
+                        <h2 class="discover__title">LIDAR Traffic Dataset</h2>
+                        <span class="discover__description">Raw</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      
+  </div>
+</section>
+
+
+<br><br><br><br><br><br><br><br>
+  <!-- Footer -->
+  <section id = "entire_footer">
+    <hr style="color: rgb(16, 16, 80);">
+    <div class="projects-header">
+      <h1 class="section-title">Our <span>Team</span></h1>
+    </div>
+    <footer class="footer">
+      <div class="logo-container">
+        <img src="img/wipro_correct2.png" alt="logo 2" class="logo">
+        <img src="img/iisc_correct.png" alt="logo 3" class="logo">
+        <img src="img/rvce_correct.png" alt="logo 1" class="logo">
+        <img src="img/nid_correct.png" alt="logo 4" class="logo">
+      </div>
+      <br><br><br>
+    </footer>
+    <div class="footer-links">
+      <a href="mailto:wirin@rvce.edu.in">Contact Us</a>
+      <a href="https://docs.google.com/document/d/1EJlkxEllP2Xn_U6OZWjRUSxULB77M4xt4JRkkfniro8/edit?usp=sharing" target="_blank">Terms and Conditions</a>
+      <a href="https://docs.google.com/document/d/1Oh2g50tcgIFOVc85jfqQmcHLMD9ecF_DIDX6hFZc_U0/edit?usp=sharing" target="_blank">Privacy Policy</a>
+    </div>
+    </section>
+    <script src="app.js"></script>
+  <!-- End Footer -->
+ <!--========== SCROLL UP ==========-->
+ <a href="#" class="scrollup" id="scroll-up">
+  <i class="ri-arrow-up-line scrollup__icon"></i>
+</a>
+
+<!--=============== SCROLL REVEAL===============-->
+<script src="assets/js/scrollreveal.min.js"></script>
+
+<!--=============== SWIPER JS ===============-->
+<script src="assets/js/swiper-bundle.min.js"></script>
+
+<!--=============== MAIN JS ===============-->
+<script src="assets/js/main.js"></script>
+</body>
+</html>
